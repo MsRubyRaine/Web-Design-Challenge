@@ -1,0 +1,17 @@
+.navbar-brand {
+    background-color: #29b8e4;
+    padding: 25px;
+    text-align: left;
+    font-size: 30px;
+  }
+
+.nav-link {
+    text-align: right;
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+

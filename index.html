@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Web-Design-Challenge/style.css">
+    <link rel="stylesheet" href="/Web-Design-Challenge/sketchy.min.css">
+    <title>Latitude</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Latitude</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Data</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="card mb-6">
+    <div class="card text-white bg-info mb-3" style="max-width: 75rem;">
+        <div class="row no-gutters">
+        <div class="col-md-5">
+            <img src="Instructions/Resources/assets/images/Fig1.png" class="card-img" alt="...">
+            <br>
+        </div>
+        <div class="col-md-7">
+            <div class="card-body">
+                <br>
+            <h4 class="card-title">Summary: Latitude vs. X</h4>
+            <br>
+        <p class="card-text">The purpose of this project was to analyze how weather
+            changes as you get closer to the equator. To accomplish this analysis, we
+            first pulled data from the OpenWeatherMap API to assemble a data set on
+            over 500 cities.
+            <br>
+            <br>
+            After assembling the dataset, we used Matplotlib to plot various aspects of
+            the weather vs. latitude. Factors we looked at included temperature, cloudiness,
+            wind speed, and humidity. This site provides the source data and visualizations
+            created as part of the analysis, as well as explanations and descriptions of any
+            trends and correlations witnessed.</p>
+            
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Large Modal</h2>
+        <!-- Trigger the modal with a button -->
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Large Modal</button>
+      
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+              </div>
+              <div class="modal-body">
+                <p>This is a large modal.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>    
+</body>
+</html>
