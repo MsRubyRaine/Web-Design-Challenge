@@ -6,15 +6,12 @@
   }
 
 .nav-link {
-    text-align: right;
+    text-align: left;
 }
 
 .card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
+    margin: auto; /* Added */
+    float: auto; /* Added */
+    margin-bottom: auto; /* Added */
 }
 
-.modal-title#staticBackdropLabel {
-    text-align: center;
-}
