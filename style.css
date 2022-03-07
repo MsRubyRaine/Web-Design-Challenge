@@ -15,3 +15,6 @@
     margin-bottom: 10px; /* Added */
 }
 
+.modal-title#staticBackdropLabel {
+    text-align: center;
+}
