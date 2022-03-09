@@ -1,17 +1,33 @@
 .navbar-brand {
-    background-color: #29b8e4;
-    padding: 25px;
-    text-align: left;
-    font-size: 30px;
-  }
+  background-color: #29b8e4;
+  padding: 25px;
+  text-align: left;
+  font-size: 30px;
+}
 
 .nav-link {
-    text-align: left;
+  text-align: left;
 }
 
 .card {
-    margin: auto; /* Added */
-    float: auto; /* Added */
-    margin-bottom: auto; /* Added */
+  margin: auto; /* Added */
+  float: auto; /* Added */
+  margin-bottom: auto; /* Added */
 }
 
+.fit-image {
+  max-width: 100% !important;
+}
+
+h1,
+h4 {
+  word-wrap: break-word !important;
+}
+
+body {
+  background-color: #7ebbce !important;
+}
+
+#Body-Text {
+  word-wrap: break-word;
+}

@@ -50,19 +50,22 @@
         <div class="border bg-white clearfix px-4 pt-5 pb-4" id="summary-block">
           <!-- Summary Block -->
           <h1>
-            Latitude vs Max Temperature
+            Summary: Latitude vs. X
           </h1>
           <hr>
-          <img class="col-md-12 float-md-start fit-image" src="Instructions/Resources/assets/images/Fig1.png">
+          <img class="col-md-6 float-md-start fit-image" src="Instructions/Resources/assets/images/Fig1.png">
 
-          <p id="Body-Text">It is often noted that locations that are closer to the equator are often hotter in
-            temperature.
-            Using our Data that includes 546 randomly selected cities, we are able to illustrate that correlation. As
-            the sample cities
-            get closer towards the center of the latitude, their max temperature rises and stays relatively even. When
-            the cities starts
-            leaving the central latitude, so falls their max temperature. This shows us that latitude plays a big factor
-            on the city's temperature.
+          <p>The purpose of this project was to analyze how weather
+            changes as you get closer to the equator. To accomplish this analysis, we
+            first pulled data from the OpenWeatherMap API to assemble a data set on
+            over 500 cities.
+            <br>
+            <br>
+            After assembling the dataset, we used Matplotlib to plot various aspects of
+            the weather vs. latitude. Factors we looked at included temperature, cloudiness,
+            wind speed, and humidity. This site provides the source data and visualizations
+            created as part of the analysis, as well as explanations and descriptions of any
+            trends and correlations witnessed.
           </p>
         </div>
       </div>
@@ -70,8 +73,9 @@
       <div class="col col-md-3 text-center">
         <!-- Visualizations -->
         <div class="border bg-white clearfix px-4 pt-5 pb-4">
-          <h1>Visualizations</h1>
-          <h4 class="text-info">Select a Graph for more information!</h4>
+          <h1>
+            Visualizations</h1>
+          <h2>Select a Graph for more information!</h2>
           <hr>
           <div class="row">
             <a href="/Web-Design-Challenge/max-temp.html" class="display-contents"><img
@@ -93,7 +97,7 @@
     </div>
   </div>
 
-  <!-- Script for Dropdown -->
+  <!-- Script for Dropdown   -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
